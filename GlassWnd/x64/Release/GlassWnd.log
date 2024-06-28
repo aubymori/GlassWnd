@@ -1,0 +1,12 @@
+﻿  GlassWnd.c
+C:\Users\Aubrey\src\GlassWnd\GlassWnd.c(65,34): warning C4047: 'function': 'LPCWSTR' differs in levels of indirection from 'int'
+C:\Users\Aubrey\src\GlassWnd\GlassWnd.c(65,34): warning C4024: 'LoadIconW': different types for formal and actual parameter 2
+C:\Users\Aubrey\src\GlassWnd\GlassWnd.c(67,19): warning C4047: '=': 'HBRUSH' differs in levels of indirection from 'int'
+C:\Users\Aubrey\src\GlassWnd\GlassWnd.c(72,3): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\Aubrey\src\GlassWnd\GlassWnd.c(72,3): warning C4024: 'CreateWindowExW': different types for formal and actual parameter 1
+  Generating code
+  1 of 2 functions (50.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GlassWnd.vcxproj -> C:\Users\Aubrey\src\GlassWnd\x64\Release\GlassWnd.exe
