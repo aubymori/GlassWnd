@@ -59,14 +59,14 @@ int WINAPI wWinMain(
 	int       nCmdShow
 )
 {
-	WNDCLASSEXW wc = { sizeof(WNDCLASSEXW)};
+	WNDCLASSW wc = { 0 };
 	wc.lpfnWndProc = GlassWndProc;
 	wc.hInstance = hInstance;
 	wc.hIcon = LoadIconW(hInstance, IDI_GLASSWND);
 	wc.hCursor = LoadCursorW(NULL, IDC_ARROW);
 	wc.hbrBackground = (COLOR_3DFACE + 1);
 	wc.lpszClassName = c_szClassName;
-	RegisterClassExW(&wc);
+	RegisterClassW(&wc);
 
 	HWND hWnd = CreateWindowExW(
 		NULL,
